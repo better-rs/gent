@@ -25,3 +25,6 @@ path = "src/bin/main.rs"
 
 
 [dependencies]
+clap = { version = "3.1.5", features = ["derive"] }
+log = "0.4"               # log
+pretty_env_logger = "0.4" # colorful log
